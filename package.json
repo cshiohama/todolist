@@ -1,0 +1,34 @@
+{
+  "name": "todos-js175",
+  "version": "1.0.0",
+  "description": "",
+  "main": "todos.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "heroku-postbuild": "npm install --production",
+    "start": "npx nodemon todos.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "connect-loki": "^1.1.0",
+    "dotenv": "^16.4.1",
+    "express": "^4.17.1",
+    "express-flash": "0.0.2",
+    "express-session": "^1.17.0",
+    "express-validator": "^6.2.0",
+    "morgan": "^1.9.1",
+    "pg": "^8.11.3",
+    "pug": "^2.0.4"
+  },
+  "engines": {
+    "node": "16.20.0",
+    "npm": "9.8.1"
+  }
+}

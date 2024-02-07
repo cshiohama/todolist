@@ -1,0 +1,4 @@
+session-store.db
+node_modules
+sql/users.sql
+.env
